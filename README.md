@@ -10,7 +10,6 @@ Welcome to the Flutter Mini Projects repository! This repository contains variou
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -32,7 +31,6 @@ This repository includes multiple projects, each highlighting different UI desig
 - **Firebase Integration Project**
   - Description: A project that integrates Firebase with Flutter using RESTful APIs.
   - Features:
-    - User Authentication
     - Data Storage
     - Data Retrieval
   - Screenshots: [Add screenshots if available]
@@ -62,35 +60,24 @@ To get a local copy up and running follow these simple steps.
    flutter pub get
 
 4. Firebase Setup (For the Firebase Integration Project)
-Go to the Firebase Console and create a new project.
-Add an Android/iOS app to your Firebase project and follow the instructions to download the google-services.json or GoogleService-Info.plist file.
-Place the google-services.json (for Android) in the android/app directory.
-Place the GoogleService-Info.plist (for iOS) in the ios/Runner directory.
-Enable the necessary Firebase services (Authentication, Firestore, etc.) in the Firebase Console.
-Usage
+
+   Go to the Firebase Console and create a new project.
+   Add an Android/iOS app to your Firebase project and follow the instructions to download the google-services.json or GoogleService-Info.plist file.
+   Place the google-services.json (for Android) in the android/app directory.
+   Enable the necessary Firebase services in the Firebase Console.
+
+### Usage
+
 Run the project
 
 flutter run
+
 For the Firebase project, make sure to configure the backend URL in your Dart code:
 
 final String firebaseUrl = 'https://your-project-id.firebaseio.com';
-Project Structure
-plaintext
 
-flutter-mini-projects/
-├── project_1/
-│   ├── lib/
-│   └── ...
-├── project_2/
-│   ├── lib/
-│   └── ...
-├── project_with_firebase/
-│   ├── lib/
-│   ├── android/
-│   ├── ios/
-│   └── ...
-└── README.md
-Contributing
+### Contributing
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project
@@ -106,11 +93,9 @@ Push to the Branch
 
 git push origin feature/AmazingFeature
 Open a Pull Request
-License
-Distributed under the MIT License. See LICENSE for more information.
 
-Contact
-Your Name - @your_twitter - your_email@example.com
+### Contact
+Your Name - @your_email - fatimakosar5@gmail.com
 
 This README now includes all the necessary information and instructions, formatted properly for clarity and ease of use.
 
